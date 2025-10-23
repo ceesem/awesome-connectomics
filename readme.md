@@ -56,7 +56,7 @@ This list focuses on circuit-scale synapse resolution volumetric neuroanatomy da
 
 ## Network Analysis and Statistics
 
-- [Graspologic](https://microsoft.github.io/graspologic/) - A Python library for graph statistics and machine learning, with a focus on applications in neuroscience such as graph matching.
+- [Graspologic](https://github.com/graspologic-org/graspologic) - A Python library for graph statistics and machine learning, with a focus on applications in neuroscience such as graph matching.
 - [DotMotif](https://github.com/aplbrain/dotmotif) - High performance graph motif search and subgraph isomorphism.
 
 ## Online Data Viewers
