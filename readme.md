@@ -12,9 +12,9 @@ A curated list of awesome connectomics resources, tools, and particularly well-c
 
 <!-- image -->
 
-<a href="" target="_blank" rel="noopener noreferrer">
+<!-- <a href="" target="_blank" rel="noopener noreferrer">
   <img src="" />
-</a>
+</a> -->
 
 <!-- description -->
 
@@ -57,7 +57,7 @@ This list focuses on circuit-scale synapse resolution volumetric neuroanatomy da
 ## Network Analysis and Statistics
 
 - [Graspologic](https://github.com/graspologic-org/graspologic) - A Python library for graph statistics and machine learning, with a focus on applications in neuroscience such as graph matching.
-- [DotMotif](https://github.com/aplbrain/dotmotif) - High performance graph motif search and subgraph isomorphism.
+- [DotMotif](https://github.com/aplbrain/dotmotif) - A Python library for high performance graph motif search and subgraph isomorphism.
 
 ## Online Data Viewers
 
