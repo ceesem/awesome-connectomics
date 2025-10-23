@@ -65,7 +65,7 @@ This list focuses on circuit-scale synapse resolution volumetric neuroanatomy da
 
 ## Papers with Code
 
-- [Perisomatic Ultrastructure Efficiently Classifies Cells in Mouse Cortex](https://github.com/AllenInstitute/Perisomatic_Based_CellTyping) (Elabbady et al. 2025). Uses ultrastructural features around the soma to classify cell types in the MICrONs mouse cortex dataset.
+- [Perisomatic Ultrastructure Efficiently Classifies Cells in Mouse Cortex (Elabbady et al. 2025)](https://github.com/AllenInstitute/Perisomatic_Based_CellTyping) - Uses ultrastructural features around the soma to classify cell types in the MICrONs mouse cortex dataset.
 
 ## Datasets
 
