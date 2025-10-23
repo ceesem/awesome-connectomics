@@ -47,7 +47,7 @@ This list focuses on circuit-scale synapse resolution volumetric neuroanatomy da
 - [CAVEclient](https://github.com/CAVEconnectome/CAVEclient) - A Python client for accessing CAVE datasets.
 - [CloudVolume](https://github.com/seung-lab/cloud-volume) - A Python library for accessing and manipulating Neuroglancer-compatible volumetric data.
 - [NatVerse](https://natverse.org) - An R package for accessing and analyzing large-scale neuroanatomical datasets, with a focus on Drosophila.
-- 
+
 ## Analysis and Visualization Tools
 
 - [NAVIS](https://navis-org.github.io/navis/) - A Python library and viewer for the analysis and visualization of neuronal  skeleton data. Excellent for working with transformations between Drosophila dataset coordinate systems.
