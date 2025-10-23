@@ -32,6 +32,7 @@ This list focuses on circuit-scale synapse resolution volumetric neuroanatomy da
   - [Analysis and Visualization Tools](#analysis-and-visualization-tools)
   - [Network Analysis and Statistics](#network-analysis-and-statistics)
   - [Online Data Viewers](#online-data-viewers)
+  - [Papers with Code](#papers-with-code)
   - [Datasets](#datasets)
     - [Archives](#archives)
     - [Vertebrates](#vertebrates)
@@ -45,7 +46,8 @@ This list focuses on circuit-scale synapse resolution volumetric neuroanatomy da
 
 - [CAVEclient](https://github.com/CAVEconnectome/CAVEclient) - A Python client for accessing CAVE datasets.
 - [CloudVolume](https://github.com/seung-lab/cloud-volume) - A Python library for accessing and manipulating Neuroglancer-compatible volumetric data.
-
+- [NatVerse](https://natverse.org) - An R package for accessing and analyzing large-scale neuroanatomical datasets, with a focus on Drosophila.
+- 
 ## Analysis and Visualization Tools
 
 - [NAVIS](https://navis-org.github.io/navis/) - A Python library and viewer for the analysis and visualization of neuronal  skeleton data. Excellent for working with transformations between Drosophila dataset coordinate systems.
@@ -60,6 +62,10 @@ This list focuses on circuit-scale synapse resolution volumetric neuroanatomy da
 ## Online Data Viewers
 
 - [Neuroglancer](https://github.com/google/neuroglancer) - A web-based viewer for 3D volumetric data, including support for large cloud datasets and CAVE-based proofreading.
+
+## Papers with Code
+
+- [Perisomatic Ultrastructure Efficiently Classifies Cells in Mouse Cortex](https://github.com/AllenInstitute/Perisomatic_Based_CellTyping) (Elabbady et al. 2025). Uses ultrastructural features around the soma to classify cell types in the MICrONs mouse cortex dataset.
 
 ## Datasets
 
