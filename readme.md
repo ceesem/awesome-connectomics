@@ -1,30 +1,91 @@
-# Awesome List Template
+<div align="center">
 
-This is an [awesome-list](https://github.com/sindresorhus/awesome) template with
-CI to run [awesome-lint](https://github.com/sindresorhus/awesome-lint) and
-[awesome_bot](https://github.com/dkhamsing/awesome_bot) to be compliant from the
-beginning.
+<!-- title -->
 
-## Usage
+<!--lint ignore no-dead-urls-->
 
-1. [generate a template of this repo](https://github.com/jthegedus/awesome-list-template/generate)
-2. run a find & replace of `YOUR_GITHUB_USER/YOUR_REPO` with your details
-3. edit `readme-template.md`
-   - update the h1 title
-   - update the subtitle
-   - update the description
-   - add img src, make it link to the site of the thing in the image.
-4. choose a CI template
-   - GitHub Action: move config folder from `repo-root/ci/.github/` to
-     `repo-root/.github`
-   - Circle CI: move config folder from `repo-root/ci/.circleci/*` to
-     `repo-root/.circleci/*`
-   - GitLab CI: move config file from `repo-root/ci/.gitlab-ci.yml` to the
-     `repo-root/.gitlab-ci.yml`
-5. run a find & replace `readme-template.md` to `readme.md` in the CI you chose
-5. delete this file
-6. rename `readme-template.md` file to `readme.md`
+# Awesome Connectomics [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![lint](https://github.com/ceesem/awesome-connectomics/actions/workflows/lint.yaml/badge.svg)](https://github.com/ceesem/awesome-connectomics/actions/workflows/lint.yaml)
+
+<!-- subtitle -->
+
+A curated list of awesome connectomics resources, tools, and particularly well-curated datasets to use them on.
+
+<!-- image -->
+
+<a href="" target="_blank" rel="noopener noreferrer">
+  <img src="" />
+</a>
+
+<!-- description -->
+
+This list focuses on circuit-scale synapse resolution volumetric neuroanatomy datasets and tools such as those produced by electron microscopy (EM). It includes resources for data access, neuronal morphology analysis and visualization, network analysis and statistics, and well-curated datasets from various organisms.
+
+</div>
+
+<!-- TOC -->
+
+## Contents
+
+- [Awesome Connectomics  ](#awesome-connectomics--)
+  - [Contents](#contents)
+  - [Data Access](#data-access)
+  - [Analysis and Visualization Tools](#analysis-and-visualization-tools)
+  - [Network Analysis and Statistics](#network-analysis-and-statistics)
+  - [Online Data Viewers](#online-data-viewers)
+  - [Datasets](#datasets)
+    - [Archives](#archives)
+    - [Vertebrates](#vertebrates)
+    - [Invertebrates](#invertebrates)
+  - [Contributing](#contributing)
+    - [Contributors](#contributors)
+
+<!-- CONTENT -->
+
+## Data Access
+
+- [CAVEclient](https://github.com/CAVEconnectome/CAVEclient) - A Python client for accessing CAVE datasets.
+- [CloudVolume](https://github.com/seung-lab/cloud-volume) - A Python library for accessing and manipulating Neuroglancer-compatible volumetric data.
+
+## Analysis and Visualization Tools
+
+- [NAVIS](https://navis-org.github.io/navis/) - A Python library and viewer for the analysis and visualization of neuronal  skeleton data. Excellent for working with transformations between Drosophila dataset coordinate systems.
+- [MeshParty](https://github.com/CAVEconnectome/MeshParty) - A Python library for working with 3D mesh, skeleton, and annotation data for neurons and other structures, with an emphasis on CAVE datasets. Reaching end-of-life.
+- [NGLui](https://github.com/CAVEconnectome/nglui) — A Python library for programmatic generation of Neuroglancer states, including mapping data to Neuroglancer annotations.
+
+## Network Analysis and Statistics
+
+- [Graspologic](https://microsoft.github.io/graspologic/) - A Python library for graph statistics and machine learning, with a focus on applications in neuroscience such as graph matching.
+- [DotMotif](https://github.com/aplbrain/dotmotif) - High performance graph motif search and subgraph isomorphism.
+
+## Online Data Viewers
+
+- [Neuroglancer](https://github.com/google/neuroglancer) - A web-based viewer for 3D volumetric data, including support for large cloud datasets and CAVE-based proofreading.
+
+## Datasets
+
+### Archives
+
+- [BossDB](https://bossdb.org/) - Hosts imagery, segmentation, and other information for numerous public datasets for volume neuroanatomy, mostly from electron microscopy.
+
+### Vertebrates
+
+- [MICrONs mm3](https://microns-explorer.org/) - A cubic millimeter of functionally imaged mouse visual cortex spanning ~80,000 neurons imaged by the Allen Institute as part of the MICrONs project. See also [MICrONs tutorials](https://tutorial.microns-explorer.org/) for detailed information about data access.
+- [H01 (Human)](https://h01-release.storage.googleapis.com/landing.html) - A cubic millimeter EM dataset of human temporal cortex from the Lichtman Lab.
+
+### Invertebrates
+
+- FlyWire
+- FANC
+- BANC
+- MANC
+- Hemibrain
+
+<!-- END CONTENT -->
 
 ## Contributing
 
-Contributions welcome!
+[Contributions of any kind welcome, just follow the guidelines](contributing.md)!
+
+### Contributors
+
+[Thanks goes to these contributors](https://github.com/ceesem/awesome-connectomics/graphs/contributors)!
