@@ -24,16 +24,18 @@ It includes resources for data access, neuronal morphology analysis and visualiz
 The aim is to highlight tools that are broadly applicable across datasets or that might inspire new approaches.
 If in doubt that a tool is quite mature enough to be included, we encourage discovery even if a tool is not yet fully mature.
 
-Note: This repository is just starting out and will be expanded over time. Contributions welcome, and please take no offense if your tools or datasets are not yet listed! Please see the [contributing guidelines](contributing.md) to help us grow this list.
+Note: This repository is just starting out and will be expanded over time. Contributions welcome, and please take no offense if your tools or datasets are not yet listed!
+
+Please see the [contributing guidelines](contributing.md) to help us grow this list.
 
 </div>
 
 <!-- TOC -->
 
-## Table of Contents
+## Table of Contents <!-- omit from toc -->
+<!--lint disable awesome-list-item-->
 
 - [Awesome Connectomics](#awesome-connectomics)
-  - [Table of Contents](#table-of-contents)
   - [Data Access](#data-access)
   - [Morphology Analysis and Visualization Tools](#morphology-analysis-and-visualization-tools)
   - [Network Analysis and Statistics](#network-analysis-and-statistics)
@@ -44,8 +46,6 @@ Note: This repository is just starting out and will be expanded over time. Contr
     - [Archives](#archives)
     - [Vertebrates](#vertebrates)
     - [Invertebrates](#invertebrates)
-  - [Contributing](#contributing)
-    - [Contributors](#contributors)
 
 <!-- CONTENT -->
 
@@ -54,7 +54,7 @@ Note: This repository is just starting out and will be expanded over time. Contr
 - [CAVEclient](https://github.com/CAVEconnectome/CAVEclient) - A Python client for accessing CAVE datasets.
 - [CloudVolume](https://github.com/seung-lab/cloud-volume) - A Python library for accessing and manipulating Neuroglancer-compatible volumetric data.
 - [NatVerse](https://natverse.org) - An R package for accessing and analyzing large-scale neuroanatomical datasets, with a focus on Drosophila.
-- [Neuprint-python](https://connectome-neuprint.github.io/neuprint-python/docs/) — A Python client for accessing NeuPrint databases.
+- [Neuprint-python](https://connectome-neuprint.github.io/neuprint-python/docs/) - A Python client for accessing NeuPrint databases.
 
 ## Morphology Analysis and Visualization Tools
 
@@ -71,7 +71,7 @@ Note: This repository is just starting out and will be expanded over time. Contr
 ## Online Data Viewing
 
 - [Neuroglancer](https://github.com/google/neuroglancer) - A web-based viewer for 3D volumetric data, including support for large cloud datasets and CAVE-based proofreading. The de facto standard for cloud-based volumetric data viewing in connectomics.
-- [NGLui](https://github.com/CAVEconnectome/nglui) — A Python library for programmatic generation of Neuroglancer states, including mapping data to Neuroglancer annotations.
+- [NGLui](https://github.com/CAVEconnectome/nglui) - A Python library for programmatic generation of Neuroglancer states, including mapping data to Neuroglancer annotations.
 - [NeuPrint](https://github.com/connectome-neuprint/neuPrint) - A web-based interface and database for querying connectomics datasets hosted in a Neo4j graph database (see [NeuPrint Explorer](https://github.com/connectome-neuprint/neuPrintExplorer) for the web interface).
 - [Codex](https://github.com/murthylab/codex) - A web application for exploring and analyzing neurons and annotations from FlyWire and related datasets.
 
@@ -80,7 +80,7 @@ Note: This repository is just starting out and will be expanded over time. Contr
 - [Kimimaro](https://github.com/seung-lab/kimimaro/) - A Python library for dense skeletonization of volumetric segmentation data.
 - [FastMorph](https://github.com/seung-lab/fastmorph) - A Python library for fast morphological 3D image operations (e.g. dilation and erosion) that are tuned for working with dense 3D labeled data.
 - [Igneous](https://github.com/seung-lab/igneous) - A Python library and pipeline for downsampling, meshing, and skeletonizing large volumetric neuroanatomy datasets.
-- [euclidean-distance-transform-3d](https://github.com/seung-lab/euclidean-distance-transform-3d) — A Python library for efficiently computing the exact Euclidean distance transform on large 3D volumetric data, which provides a minimum distance to object boundaries.
+- [euclidean-distance-transform-3d](https://github.com/seung-lab/euclidean-distance-transform-3d) - A Python library for efficiently computing the exact Euclidean distance transform on large 3D volumetric data, which provides a minimum distance to object boundaries.
 
 ## Papers with Code
 
@@ -105,10 +105,10 @@ Note: This repository is just starting out and will be expanded over time. Contr
 
 <!-- END CONTENT -->
 
-## Contributing
+## Contributing <!-- omit from toc -->
 
 [Contributions of any kind welcome, just follow the guidelines](contributing.md)!
 
-### Contributors
+### Contributors <!-- omit from toc -->
 
 [Thanks goes to these contributors](https://github.com/ceesem/awesome-connectomics/graphs/contributors)!
