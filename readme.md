@@ -19,7 +19,10 @@ A curated list of awesome connectomics resources, tools, and particularly well-c
 
 <!-- description -->
 
-This list focuses on circuit-scale synapse resolution volumetric neuroanatomy datasets and tools such as those produced by electron microscopy (EM). It includes resources for data access, neuronal morphology analysis and visualization, network analysis and statistics, and well-curated datasets from various organisms.
+This list focuses on circuit-scale synapse resolution volumetric neuroanatomy datasets and tools such as those produced by electron microscopy (EM).
+It includes resources for data access, neuronal morphology analysis and visualization, network analysis and statistics, and well-curated datasets from various organisms.
+The aim is to highlight tools that are broadly applicable across datasets or that might inspire new approaches.
+If in doubt that a tool is quite mature enough to be included, we encourage discovery even if a tool is not yet fully mature.
 
 Note: This repository is just starting out and will be expanded over time. Contributions welcome, and please take no offense if your tools or datasets are not yet listed! Please see the [contributing guidelines](contributing.md) to help us grow this list.
 
@@ -32,10 +35,10 @@ Note: This repository is just starting out and will be expanded over time. Contr
 - [Awesome Connectomics](#awesome-connectomics)
   - [Table of Contents](#table-of-contents)
   - [Data Access](#data-access)
-  - [Volumetric Data Processing](#volumetric-data-processing)
   - [Morphology Analysis and Visualization Tools](#morphology-analysis-and-visualization-tools)
   - [Network Analysis and Statistics](#network-analysis-and-statistics)
   - [Online Data Viewing](#online-data-viewing)
+  - [Volumetric Data Processing](#volumetric-data-processing)
   - [Papers with Code](#papers-with-code)
   - [Datasets](#datasets)
     - [Archives](#archives)
@@ -52,11 +55,6 @@ Note: This repository is just starting out and will be expanded over time. Contr
 - [CloudVolume](https://github.com/seung-lab/cloud-volume) - A Python library for accessing and manipulating Neuroglancer-compatible volumetric data.
 - [NatVerse](https://natverse.org) - An R package for accessing and analyzing large-scale neuroanatomical datasets, with a focus on Drosophila.
 - [Neuprint-python](https://connectome-neuprint.github.io/neuprint-python/docs/) — A Python client for accessing NeuPrint databases.
-
-## Volumetric Data Processing
-
-- [Kimimaro](https://github.com/seung-lab/kimimaro/) - A Python library for dense skeletonization of volumetric segmentation data.
-
 
 ## Morphology Analysis and Visualization Tools
 
@@ -75,6 +73,12 @@ Note: This repository is just starting out and will be expanded over time. Contr
 - [Neuroglancer](https://github.com/google/neuroglancer) - A web-based viewer for 3D volumetric data, including support for large cloud datasets and CAVE-based proofreading.
 - [NGLui](https://github.com/CAVEconnectome/nglui) — A Python library for programmatic generation of Neuroglancer states, including mapping data to Neuroglancer annotations.
 - [NeuPrint](https://neuprint.janelia.org) - A web-based interface and database for querying Janelia connectomics datasets.
+
+## Volumetric Data Processing
+
+- [Kimimaro](https://github.com/seung-lab/kimimaro/) - A Python library for dense skeletonization of volumetric segmentation data.
+- [FastMorph](https://github.com/seung-lab/fastmorph) - A Python library for fast morphological 3D image operations (e.g. dilation and erosion) that are tuned for working with dense 3D labeled data.
+- [Igneous](https://github.com/seung-lab/igneous) - A Python library and pipeline for downsampling, meshing, and skeletonizing large volumetric neuroanatomy datasets.
 
 ## Papers with Code
 
