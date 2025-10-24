@@ -4,7 +4,8 @@
 
 <!--lint ignore no-dead-urls-->
 
-# Awesome Connectomics [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![lint](https://github.com/ceesem/awesome-connectomics/actions/workflows/lint.yaml/badge.svg)](https://github.com/ceesem/awesome-connectomics/actions/workflows/lint.yaml)
+# Awesome Connectomics
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![lint](https://github.com/ceesem/awesome-connectomics/actions/workflows/lint.yaml/badge.svg)](https://github.com/ceesem/awesome-connectomics/actions/workflows/lint.yaml)
 
 <!-- subtitle -->
 
@@ -20,18 +21,21 @@ A curated list of awesome connectomics resources, tools, and particularly well-c
 
 This list focuses on circuit-scale synapse resolution volumetric neuroanatomy datasets and tools such as those produced by electron microscopy (EM). It includes resources for data access, neuronal morphology analysis and visualization, network analysis and statistics, and well-curated datasets from various organisms.
 
+Note: This repository is just starting out and will be expanded over time. Contributions welcome, and please take no offense if your tools or datasets are not yet listed! Please see the [contributing guidelines](contributing.md) to help us grow this list.
+
 </div>
 
 <!-- TOC -->
 
-## Contents
+## Table of Contents
 
-- [Awesome Connectomics  ](#awesome-connectomics--)
-  - [Contents](#contents)
+- [Awesome Connectomics](#awesome-connectomics)
+  - [Table of Contents](#table-of-contents)
   - [Data Access](#data-access)
-  - [Analysis and Visualization Tools](#analysis-and-visualization-tools)
+  - [Volumetric Data Processing](#volumetric-data-processing)
+  - [Morphology Analysis and Visualization Tools](#morphology-analysis-and-visualization-tools)
   - [Network Analysis and Statistics](#network-analysis-and-statistics)
-  - [Online Data Viewers](#online-data-viewers)
+  - [Online Data Viewing](#online-data-viewing)
   - [Papers with Code](#papers-with-code)
   - [Datasets](#datasets)
     - [Archives](#archives)
@@ -47,21 +51,30 @@ This list focuses on circuit-scale synapse resolution volumetric neuroanatomy da
 - [CAVEclient](https://github.com/CAVEconnectome/CAVEclient) - A Python client for accessing CAVE datasets.
 - [CloudVolume](https://github.com/seung-lab/cloud-volume) - A Python library for accessing and manipulating Neuroglancer-compatible volumetric data.
 - [NatVerse](https://natverse.org) - An R package for accessing and analyzing large-scale neuroanatomical datasets, with a focus on Drosophila.
+- [Neuprint-python](https://connectome-neuprint.github.io/neuprint-python/docs/) — A Python client for accessing NeuPrint databases.
 
-## Analysis and Visualization Tools
+## Volumetric Data Processing
+
+- [Kimimaro](https://github.com/seung-lab/kimimaro/) - A Python library for dense skeletonization of volumetric segmentation data.
+
+
+## Morphology Analysis and Visualization Tools
 
 - [NAVIS](https://navis-org.github.io/navis/) - A Python library and viewer for the analysis and visualization of neuronal  skeleton data. Excellent for working with transformations between Drosophila dataset coordinate systems.
 - [MeshParty](https://github.com/CAVEconnectome/MeshParty) - A Python library for working with 3D mesh, skeleton, and annotation data for neurons and other structures, with an emphasis on CAVE datasets. Reaching end-of-life.
-- [NGLui](https://github.com/CAVEconnectome/nglui) — A Python library for programmatic generation of Neuroglancer states, including mapping data to Neuroglancer annotations.
+- [MorphoPy](https://github.com/berenslab/MorphoPy) - A Python library for morphometry and topological feature extraction for neuronal skeletons.
+- [neuVid](https://github.com/connectome-neuprint/neuVid) - Python scripts to generate Blender animations of mesh-based connectomics data.
 
 ## Network Analysis and Statistics
 
 - [Graspologic](https://github.com/graspologic-org/graspologic) - A Python library for graph statistics and machine learning, with a focus on applications in neuroscience such as graph matching.
 - [DotMotif](https://github.com/aplbrain/dotmotif) - A Python library for high performance graph motif search and subgraph isomorphism.
 
-## Online Data Viewers
+## Online Data Viewing
 
 - [Neuroglancer](https://github.com/google/neuroglancer) - A web-based viewer for 3D volumetric data, including support for large cloud datasets and CAVE-based proofreading.
+- [NGLui](https://github.com/CAVEconnectome/nglui) — A Python library for programmatic generation of Neuroglancer states, including mapping data to Neuroglancer annotations.
+- [NeuPrint](https://neuprint.janelia.org) - A web-based interface and database for querying Janelia connectomics datasets.
 
 ## Papers with Code
 
