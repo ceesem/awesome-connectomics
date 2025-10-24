@@ -38,7 +38,7 @@ Note: This repository is just starting out and will be expanded over time. Contr
   - [Morphology Analysis and Visualization Tools](#morphology-analysis-and-visualization-tools)
   - [Network Analysis and Statistics](#network-analysis-and-statistics)
   - [Online Data Viewing](#online-data-viewing)
-  - [Volumetric Data Processing](#volumetric-data-processing)
+  - [Volumetric Data Analysis and Processing](#volumetric-data-analysis-and-processing)
   - [Papers with Code](#papers-with-code)
   - [Datasets](#datasets)
     - [Archives](#archives)
@@ -74,11 +74,12 @@ Note: This repository is just starting out and will be expanded over time. Contr
 - [NGLui](https://github.com/CAVEconnectome/nglui) — A Python library for programmatic generation of Neuroglancer states, including mapping data to Neuroglancer annotations.
 - [NeuPrint](https://neuprint.janelia.org) - A web-based interface and database for querying Janelia connectomics datasets.
 
-## Volumetric Data Processing
+## Volumetric Data Analysis and Processing
 
 - [Kimimaro](https://github.com/seung-lab/kimimaro/) - A Python library for dense skeletonization of volumetric segmentation data.
 - [FastMorph](https://github.com/seung-lab/fastmorph) - A Python library for fast morphological 3D image operations (e.g. dilation and erosion) that are tuned for working with dense 3D labeled data.
 - [Igneous](https://github.com/seung-lab/igneous) - A Python library and pipeline for downsampling, meshing, and skeletonizing large volumetric neuroanatomy datasets.
+- [euclidean-distance-transform-3d](https://github.com/seung-lab/euclidean-distance-transform-3d) — A Python library for efficiently computing the exact Euclidean distance transform on large 3D volumetric data, which provides a minimum distance to object boundaries.
 
 ## Papers with Code
 
