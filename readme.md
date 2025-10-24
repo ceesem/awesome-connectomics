@@ -70,9 +70,10 @@ Note: This repository is just starting out and will be expanded over time. Contr
 
 ## Online Data Viewing
 
-- [Neuroglancer](https://github.com/google/neuroglancer) - A web-based viewer for 3D volumetric data, including support for large cloud datasets and CAVE-based proofreading.
+- [Neuroglancer](https://github.com/google/neuroglancer) - A web-based viewer for 3D volumetric data, including support for large cloud datasets and CAVE-based proofreading. The de facto standard for cloud-based volumetric data viewing in connectomics.
 - [NGLui](https://github.com/CAVEconnectome/nglui) — A Python library for programmatic generation of Neuroglancer states, including mapping data to Neuroglancer annotations.
-- [NeuPrint](https://neuprint.janelia.org) - A web-based interface and database for querying Janelia connectomics datasets.
+- [NeuPrint](https://github.com/connectome-neuprint/neuPrint) - A web-based interface and database for querying connectomics datasets hosted in a Neo4j graph database (see [NeuPrint Explorer](https://github.com/connectome-neuprint/neuPrintExplorer) for the web interface).
+- [Codex](https://github.com/murthylab/codex) - A web application for exploring and analyzing neurons and annotations from FlyWire and related datasets.
 
 ## Volumetric Data Analysis and Processing
 
@@ -98,11 +99,9 @@ Note: This repository is just starting out and will be expanded over time. Contr
 
 ### Invertebrates
 
-- FlyWire
-- FANC
-- BANC
-- MANC
-- Hemibrain
+- [FlyWire](https://flywire.ai/) - An online community for exploring and proofreading a nearly complete adult Drosophila brain EM dataset.
+- [BANC](https://github.com/jasper-tms/the-BANC-fly-connectome/wiki/) - A full adult Drosophila brain EM dataset from the Lee Lab at Harvard Medical School.
+- [Janelia NeuPrint](https://neuprint.janelia.org) - Several Drosophila EM datasets hosted by Janelia Research Campus, including the full male CNS, Hemibrain, male nerve cord (MANC), optic lobe, and more.
 
 <!-- END CONTENT -->
 
