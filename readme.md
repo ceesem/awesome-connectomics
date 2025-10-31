@@ -96,7 +96,8 @@ Please see the [contributing guidelines](contributing.md) to help us grow this l
 
 - [MICrONs mm3](https://microns-explorer.org/) - A cubic millimeter of functionally imaged mouse visual cortex spanning ~80,000 neurons imaged by the Allen Institute as part of the MICrONs project. See also [MICrONs tutorials](https://tutorial.microns-explorer.org/) for detailed information about data access.
 - [H01 (Human)](https://h01-release.storage.googleapis.com/landing.html) - A cubic millimeter EM dataset of human temporal cortex from the Lichtman Lab.
-
+- [Zebrafinch](https://www.songbird-connectomics.org) — A 256x256x384 micron region of songbird basal ganglia.
+ 
 ### Invertebrates
 
 - [FlyWire](https://flywire.ai/) - An online community for exploring and proofreading a nearly complete adult Drosophila brain EM dataset.
