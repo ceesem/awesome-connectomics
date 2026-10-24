@@ -67,6 +67,7 @@ Please see the [contributing guidelines](contributing.md) to help us grow this l
 
 - [Graspologic](https://github.com/graspologic-org/graspologic) - A Python library for graph statistics and machine learning, with a focus on applications in neuroscience such as graph matching.
 - [DotMotif](https://github.com/aplbrain/dotmotif) - A Python library for high performance graph motif search and subgraph isomorphism.
+- [flybrain-connectome](https://github.com/lm203688/flybrain-connectome) - Programmable, auditable agent topologies derived from real connectome motifs (MaleCNS v1.0). Generates W3C PROV-JSON provenance for every edge, enabling EU AI Act–compliant agent swarms.
 
 ## Online Data Viewing
 
